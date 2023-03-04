@@ -10,12 +10,15 @@ A PHP function to get client network information such as ASN, ISP, city, region,
 
 ## Usage
 Call the `getClientNetInfo()` function to get the client network information:
-```$clientNetInfo = getClientNetInfo();
+
+`
+$clientNetInfo = getClientNetInfo();
 if (isset($clientNetInfo["error"])) {
 echo $clientNetInfo["error"];
 } else {
 var_dump($clientNetInfo);
-}```
+}
+`
 
 The function will return an array with the following keys:
 * `asn` - the client's ASN
