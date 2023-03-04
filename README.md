@@ -28,6 +28,3 @@ The function will return an array with the following keys:
 * `country` - the client's country
 * `ip` - the client's IP address
 * `user_agent` - the client's user agent
-
-## License
-This project is licensed under the GNU Public License v3. You can view the license [here](https://raw.githubusercontent.com/wildybytes/lcn/main/gplv3).
