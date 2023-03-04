@@ -1,7 +1,7 @@
 # PHP-GetNet
 
 ## Description
-A PHP function to get client network information such as ASN, ISP, city, region, country, IP address, and user agent using the ipinfo.io API.
+A PHP function to get client network information such as ASN, ISP, city, region, country, IP address, and user agent using the ip-api.com API.
 
 ## Installation
 1. Copy `php-getnet.php` to your PHP project directory.
