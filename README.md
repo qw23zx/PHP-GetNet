@@ -17,3 +17,14 @@ echo $clientNetInfo["error"];
 var_dump($clientNetInfo);
 }```
 
+The function will return an array with the following keys:
+* `asn` - the client's ASN
+* `isp` - the client's ISP
+* `city` - the client's city
+* `region` - the client's region
+* `country` - the client's country
+* `ip` - the client's IP address
+* `user_agent` - the client's user agent
+
+## License
+This project is licensed under the GNU Public License v3. You can view the license [here](https://raw.githubusercontent.com/wildybytes/lcn/main/gplv3).
